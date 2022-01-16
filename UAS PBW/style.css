@@ -1,0 +1,273 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+li,
+a {
+  font-weight: 500;
+  font-size: 23px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+.logo {
+  cursor: pointer;
+}
+.nav-link {
+  list-style: none;
+}
+.nav-link li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav-link li a {
+  color: black;
+}
+.nav-link li a:hover {
+  border: none;
+  padding: 5px 20px;
+  border-radius: 50px;
+  color: #fff;
+  background-color: #195F6F;
+  transition: 0.5s;
+}
+.banner-card {
+  position: relative;
+}
+.banner-card img {
+  max-width: 100%;
+  height: auto;
+}
+.banner-txt {
+  position: absolute;
+  top: 25%;
+  color: #fff;
+  padding: 10px;
+}
+.banner-txt h2 {
+  font-size: 60px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.grid {
+  padding: 2rem;
+  margin-right: 100px;
+  margin-top: 50px;
+  display: flex;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 75px;
+  align-items: center;
+  width: 1440px;
+  height: 685px;
+}
+.grid,
+article {
+  background: #195F6F;
+  border: none;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  width: 300px;
+  transition: transform 0.3s;
+  align-items: center;
+}
+.grid,
+article:hover {
+  transform: translateY(5px);
+  box-shadow: 2px 2px 25px 0px rgba(0, 0, 0, 0.3);
+}
+.grid,
+article img {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.card {
+  padding: 0 20px 20px;
+}
+
+.card h3 p h5 {
+  text-transform: uppercase;
+}
+.grid h1 {
+  position: absolute;
+  color: #195F6F;
+  background-color: #ffffff;
+  border-radius: 20px;
+  margin-left: 450px;
+  margin-bottom: 600px;
+  width: 200px;
+}
+.semua {
+  position: absolute;
+  color: #a82020;
+  border: 2px solid #a82020;
+  background: none;
+  border-radius: 10px;
+  margin-left: 445px;
+  width: 150px;
+  text-align: center;
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s linear;
+  position: relative;
+}
+.semua:hover {
+  color: #fff;
+  background: #a82020;
+}
+.kartu-2 {
+  position: absolute;
+  margin-left: 60px;
+}
+.kartu-4 {
+  position: absolute;
+  margin-left: 60px;
+}
+.card {
+  border: none;
+}
+.card:hover {
+  box-shadow: 0px 10px 10px #b1acac;
+  transition: 0.4s;
+}
+.kartu-6 {
+  margin-left: 60px;
+}
+.about1 {
+  margin-left: 80px;
+  border: none;
+}
+.about1:hover {
+  box-shadow: 0px 10px 10px #000;
+  transition: 0.4s;
+}
+.mmm {
+  font-family: Montserrat;
+}
+.nn {
+  font-family: Montserrat;
+  font-size: 16px;
+  margin-top: 5px;
+}
+footer,
+.p {
+  font-family: Montserrat;
+  color: #fff;
+  text-align: center;
+}
+.btn {
+  background: blue;
+  border: none;
+  color: #fff;
+  margin-left: 10px;
+  display: block;
+  font-size: 1.3rem;
+  cursor: pointer;
+  outline: none;
+  transition: 0.3s;
+  
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+.ntb {
+  margin-left: 450px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  outline: none;
+  transition: 0.3s linear;
+}
+.ntb:hover {
+  opacity: 0.8;
+}
+.tambah {
+  display: flex;
+  padding-top: 2rem;
+  margin-left: 890px;
+}
+.tambah h6 {
+  margin-top: 7px;
+}
+.tambah i {
+  border: 1px solid #000;
+  background-color: red;
+  max-height: 35px;
+  padding: 7px;
+  display: inline-block;
+  position: relative;
+}
+.tambah,
+input {
+  max-width: 100px;
+}
+.pls i {
+  margin-right: 50px;
+}
+.tombol {
+  padding-top: 1rem;
+}
+.tombol .ttt {
+  float: right;
+  margin-right: 25px;
+  color: #fff;
+  background-color: #2E501E;
+  border: none;
+  border-radius: 30px;
+  padding: 1rem;
+  font-size: small;
+  transition: 0.4s;
+}
+.tombol .ttt:hover {
+  opacity: 0.6;
+}
+.form-control {
+  display: block;
+  width: 100%;
+}
+.order {
+  position: absolute;
+  left: 650px;
+  top: 30%;
+  max-width: 530px;
+  max-height: 400px;
+}
+.confirm .nnn {
+  color: #fff;
+  background-color: #2E501E;
+  border: none;
+  border-radius: 10px;
+  margin-left: 400px;
+}
+.confirm .nnn:hover {
+  opacity: 0.6;
+  transition: 0.4s;
+}
+
+.moretext{
+    display: none;
+}
+.read-more-btn{
+    padding: 15px 60px;
+    background-color: rgb(7, 30, 59);
+    color: rgb(248, 240, 240);
+    border: none;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.text.show-more .moretext{
+    display: inline;
+}
+.text.show-more .dot{
+    display: none;
+}
+.wrapper1 {
+  display: none;
+}
